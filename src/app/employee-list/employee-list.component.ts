@@ -4,7 +4,7 @@ import {EmployeeService} from "../employee.service";
   selector: 'app-employee-list',
   template: `<h2>Employee List</h2>
 <ul *ngFor="let x of employees">
-  <li>{{x.id}}---{{x.age}}---{{x.name}}</li>
+  <li>{{x.id}}--->{{x.age}}--->{{x.name}}</li>
 </ul>
   `,
   styles: []
